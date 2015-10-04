@@ -49,4 +49,15 @@ char* Book::getAuthSurname()
 	return this->AuthName.getSurname();
 }
 
+void Book::showcontent()
+{
+	std::cout << "------------Book content------------" << std::endl;
+	std::cout << std::endl;
+	std::cout << getAuthName() << std::endl;
+	std::cout << getAuthSurname() << std::endl;
+	std::cout << getGenre() << std::endl;
+	std::cout << getNameObj()<< std::endl;
+	std::cout << std::endl;
+	std::cout << std::endl;
+}
 

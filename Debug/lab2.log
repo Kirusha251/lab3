@@ -1,16 +1,6 @@
-﻿Build started 29.09.2015 9:09:02.
+﻿Build started 04.10.2015 14:36:56.
      1>Project "E:\Projects\lab3\lab2.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         E:\Microsoft visual 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt book.cpp magazine.cpp maincpp.cpp print.cpp textbook.cpp
-         book.cpp
-         Generating Code...
-         Compiling...
-         textbook.cpp
-         print.cpp
-         maincpp.cpp
-         magazine.cpp
-         Generating Code...
-       Link:
+     1>Link:
          E:\Microsoft visual 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\lab3\Debug\lab3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\lab3\Debug\lab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\lab3\Debug\lab3.lib" /MACHINE:X86 Debug\author.obj
          Debug\book.obj
          Debug\magazine.obj
@@ -24,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.76
+Time Elapsed 00:00:00.29

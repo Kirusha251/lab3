@@ -12,5 +12,6 @@ public:
 	void setSubject(char *subject);
 	int getForm();
 	char* getSubject();
+	virtual void showcontent();
 	~Textbook(void);
 };

@@ -88,3 +88,18 @@ char* Author::getSurname()
 {
 	return this->Surname;
 }
+
+void Author::show()
+{
+	Person *p = head;
+	while (p)
+	{
+		p->showcontent();
+		p = p->next;
+	}
+}
+
+void Author::showcontent()
+{
+	std::cout << "im Working now bitch" << std::endl;
+}

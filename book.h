@@ -19,4 +19,5 @@ public:
 	void setAuth(char *name,char *surname);
 	char* getAuthName();
 	char* getAuthSurname();
+	virtual void showcontent();
 };

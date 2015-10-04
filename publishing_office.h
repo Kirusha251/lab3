@@ -18,4 +18,5 @@ public:
 	virtual char* getOfficeAddress()=0;
 	virtual void add()=0;
 	virtual void show() = 0;
+	virtual void showcontent() = 0;
 };

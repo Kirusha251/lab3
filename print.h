@@ -22,4 +22,5 @@ public:
 	virtual char* getOfficeAddress();
 	virtual void add();
 	virtual void show();
+	virtual void showcontent(){};
 };

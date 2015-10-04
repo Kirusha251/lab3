@@ -22,3 +22,18 @@ char* Magazine::getTheme()
 {
 	return this->theme;
 }
+
+void Magazine::showcontent()
+{
+		std::cout << "------------Magazine content------------" << std::endl;
+		std::cout << std::endl;
+		std::cout << getNameOfOffice()<< std::endl;
+		std::cout << getOfficeAddress() << std::endl;
+		std::cout << getNameObj() << std::endl;
+		std::cout << getNumbersOfCopies() << std::endl;
+		std::cout << getNumbersOfPages() << std::endl;
+		std::cout << getTheme() << std::endl;
+		std::cout << std::endl;
+		std::cout << std::endl;
+	
+}

@@ -13,6 +13,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_CTYPE, "Russian");
+	
 	cout << "--------------" << " Person " << "--------------" << endl;
 	Author auth;
 	cout << "--------------" << " Author " << "--------------" << endl;
@@ -28,6 +29,7 @@ int main()
 	auth.setNumbersOfBooks(5);
 	cout << "The number of Books:"<< auth.getNumbersOfbooks()<<endl;
 	auth.add();
+	auth.showcontent();
 	cout << endl;
 	cout << endl;
 	cout << endl;
@@ -76,6 +78,7 @@ int main()
 	cout << "Author Name:" << bookObj.getAuthName() << endl;;
 	cout << "Author Surname:" << bookObj.getAuthSurname() << endl;
 	bookObj.add();
+	pr.show();
 	/*
 	cin >> num;
 	m.setNumbersOfCopies(num);

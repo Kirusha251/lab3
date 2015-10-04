@@ -20,6 +20,7 @@ public:
 	virtual char* getSurname();
 	virtual char* getDateofBirthday() ;
 	virtual void add();
-	static void show();
+	virtual void showcontent();
+	virtual void show();
 
 };

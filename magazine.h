@@ -11,4 +11,5 @@ public:
 	~Magazine(void);
 	void setTheme(char *theme);
 	char* getTheme();
+	virtual void showcontent();
 };

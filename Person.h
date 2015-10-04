@@ -19,4 +19,6 @@ public :
 	virtual char* getSurname()=0;
 	virtual char* getDateofBirthday()=0;
 	virtual void add() = 0;
+	virtual void showcontent()=0;
+	virtual void show()=0;
 };

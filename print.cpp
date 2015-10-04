@@ -96,7 +96,7 @@ void Print::show()
 	Publishing_Office *p = head;
 	while (p)
 	{	
-		
+		p->showcontent();
 		p = p->next;
 	}
 }

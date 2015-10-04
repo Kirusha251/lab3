@@ -32,3 +32,10 @@ char* Textbook::getSubject()
 {
 	return this->subject;
 }
+
+void Textbook::showcontent()
+{
+	std::cout << "Textbook content" << std::endl;
+	
+	
+}
